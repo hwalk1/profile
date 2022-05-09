@@ -44,6 +44,9 @@ li > a {
   background-color: none;
 
 }
+ul {
+  padding-left: 0;
+}
 ul > li {
   list-style-type: none;
   background-color: none;
@@ -53,13 +56,17 @@ ul > li {
   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
   text-align: center;
 
+
 }
 
 .title-bubble {
-  width: 500px;   /* This sets the width */
   margin: 0 auto;
   background-color: #0A31A6;
 
+}
+
+.container {
+  margin: 0 auto;
 }
 
 @media (max-width: 960px) {
